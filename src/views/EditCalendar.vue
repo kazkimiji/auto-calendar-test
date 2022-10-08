@@ -15,13 +15,14 @@
             <div class="col-md-4">
                 <form @submit.prevent="updateSubmit()">
                     <div class="mb-2">
-                        <select required v-model="contact.groupId" class="form-control" v-if="groups.length > 0">
+                        <select required v-model="contact.select" class="form-control">
                             <option value="">Select On/Off</option>
-                            <option :value="group.id" v-for="group of groups" :key="group.id">{{group.name}}</option>
+                            <option value="On">On</option>
+                            <option value="Off">Off</option>
                         </select>
                     </div>
                     <div class="mb-2">
-                        <input required v-model="contact.mobile" type="number" class="form-control"
+                        <input required v-model="contact.day" type="number" class="form-control"
                             placeholder="Opening days">
                     </div>
                     <div class="mb-2">
@@ -47,23 +48,17 @@ export default {
             contact: {
                 name: '',
                 photo: '',
-                email: '',
-                mobile: '',
-                comapny: '',
-                title: '',
-                groupId: ''
+                day: '',
+                select: ''
             },
             errorMessage: null,
-            groups: []
         }
     },
     created: async function () {
         try {
             this.loading = true;
             let response = await ContactService.getContact(this.contactId);
-            let groupResponse = await ContactService.getAllGroups();
             this.contact = response.data;
-            this.groups = groupResponse.data;
             this.loading = false;
         }
         catch (error) {

@@ -59,12 +59,14 @@
                             </div>
                             <div class="col-sm-7">
                                 <ul class="list-group">
-                                    <li class="list-group-item">Listing : <span class="fw-bold">{{contact.name}}</span>
+                                    <li class="list-group-item">Listing : <span
+                                            class="fw-bold">{{contact.listing}}</span>
                                     </li>
-                                    <li class="list-group-item">Auto Calendar : <span class="fw-bold">On</span>
+                                    <li class="list-group-item">Auto Calendar : <span
+                                            class="fw-bold">{{contact.select}}</span>
                                     </li>
                                     <li class="list-group-item">Open only the next <span
-                                            class="fst-italic">{{contact.mobile}}</span> days
+                                            class="fst-italic">{{contact.day}}</span> days
                                         from the available date for the next check-in.
                                     </li>
                                 </ul>

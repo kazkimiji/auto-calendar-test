@@ -2,64 +2,38 @@
   "contacts": [
     {
       "id": "D6BNdWnHI",
-      "name": "Lenox8A",
-      "company": "YouTube",
-      "email": "brad@gmail.com",
-      "title": "Youtuber",
-      "mobile": 3,
+      "listing": "Lenox8A",
       "photo": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.ANbldoSXaHXkRBKiff3xhgHaE-%26pid%3DApi&f=1&ipt=69d17f44846da7167b5fc2e890e587d0cd3acb1f3b484c3630d213e54355ef40&ipo=images",
-      "groupId": "1"
+      "select": "Off",
+      "day": 4
     },
     {
       "id": "TVobxeKbI",
-      "name": "Lenox8B",
-      "company": "HCL Technologies",
-      "email": "glenda@gmail.com",
-      "title": "freelancer",
-      "mobile": 4,
+      "listing": "Lenox8B",
       "photo": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.tdF-pdawrm6HCeo4Zpvs8QHaE8%26pid%3DApi&f=1&ipt=e4d9ce9c95b6181ae298d7d2a8b9a7af7e10d89a294e54b4c0430b956cb55a3e&ipo=images",
-      "groupId": "2"
+      "select": "On",
+      "day": 3
     },
     {
       "id": "UyEDV5Yds",
-      "name": "S45NA",
-      "company": "Oracle Electricals",
-      "email": "vladeen@gmail.com",
-      "title": "Electrician",
-      "mobile": 3,
+      "listing": "S45NA",
       "photo": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.mgAN1hDbmCqGXzbolKrQqQHaE8%26pid%3DApi&f=1&ipt=ed57ac3f5b254a42b71f519ad9b6675c1441e2c46a4e0fee8d779653f06976a0&ipo=images",
-      "groupId": "4"
+      "select": "On",
+      "day": 6
     },
     {
-      "name": "S45NB",
+      "listing": "S45NB",
       "photo": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.vLt_0WDRwE7CymS_1fFT5wHaE7%26pid%3DApi&f=1&ipt=7b54b4baaa51af95b0017230043c2a85e6d5b96936d71deb311b8ffc685d08a0&ipo=images",
-      "mobile": 5,
-      "email": "rajan1@gmail.com",
-      "company": "HCL",
-      "title": "Software Engineer",
-      "groupId": "1",
-      "id": "kLt-bJF"
+      "id": "kLt-bJF",
+      "select": "On",
+      "day": 4
     },
     {
-      "name": "S45NC",
+      "listing": "S45NC",
       "photo": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.n_aZQYw4JKn1SeE5O4cIIgHaE3%26pid%3DApi&f=1&ipt=f90c0ba541bfee4e7271b9dd4690ee6961e4d21a4fc84aa2e978b3a718204199&ipo=images",
-      "email": "kazuyakimijima55@gmail.com",
-      "mobile": 3,
-      "comapny": "",
-      "title": "CEO",
-      "groupId": "1",
-      "company": "TKNY Management Inc.",
-      "id": "YNwp9O8"
-    }
-  ],
-  "groups": [
-    {
-      "id": "1",
-      "name": "On"
-    },
-    {
-      "id": "2",
-      "name": "Off"
+      "id": "YNwp9O8",
+      "select": "Off",
+      "day": 6
     }
   ]
 }
