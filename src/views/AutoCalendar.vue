@@ -62,12 +62,17 @@
                                     <li class="list-group-item">Listing : <span
                                             class="fw-bold">{{contact.listing}}</span>
                                     </li>
-                                    <li class="list-group-item">Auto Calendar : <span
-                                            class="fw-bold">{{contact.select}}</span>
+                                    <li class="list-group-item">Auto Calendar : <span class="fw-bold">
+                                            <router-link :to="`/calendars/edit/${contact.id}`">{{contact.select}}
+                                            </router-link>
+                                        </span>
                                     </li>
-                                    <li class="list-group-item">Open only the next <span
-                                            class="fst-italic">{{contact.day}}</span> days
-                                        from the available date for the next check-in.
+                                    <li class="list-group-item">Check-in window : Open only the next <span
+                                            class="fw-bold">
+                                            <router-link :to="`/calendars/edit/${contact.id}`">{{contact.day}}
+                                            </router-link>
+                                        </span> days
+                                        from the available date.
                                     </li>
                                 </ul>
                             </div>
